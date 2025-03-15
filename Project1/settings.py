@@ -45,11 +45,11 @@ MIDDLEWARE = [
 # Configuração de URLs
 ROOT_URLCONF = 'Project1.urls'
 
-# Configuração dos templates (agora apontando para "frontend/templates/")
+# Configuração dos templates (agora apontando para "Templates/")
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'frontend', 'templates')],  # Caminho atualizado
+        'DIRS': [os.path.join(BASE_DIR, 'Templates')],  # Caminho atualizado
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
