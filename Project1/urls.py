@@ -20,7 +20,7 @@ from .views import login_view, logout_view, home_view  # Importa as views direta
 
 urlpatterns = [
     path("admin/", admin.site.urls),  # Página de administração do Django
-    path("", login_view, name="login"),  # Página de login (página inicial)
+    path("login/", login_view, name="login"),  # Página de login (página inicial)
     path("home/", home_view, name="home"),  # Página principal após login
     path("logout/", logout_view, name="logout"),  # Logout do usuário
 ]
