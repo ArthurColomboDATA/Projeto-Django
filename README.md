@@ -1,1 +1,1 @@
-Projeto Django, construíndo meu primeiro WebSite com esse Framework, utilizando Python e HTML.
+Projeto Django: Construção de página de login e cadastro de usuário, utilizando Python e HTML.
